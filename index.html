@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <title>Δελτίο Ταυτότητας</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+
+    body {
+      background-image: url("background.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: white;
+    }
+
+    .header {
+      background-color: #62A3DA;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .header div {
+      font-size: 1.5rem;
+    }
+
+    .header .center {
+      font-size: 0.9rem;
+      font-weight: normal;
+    }
+
+    .section-top {
+      background-color: #62A3DA;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .info-block {
+      max-width: 68%;
+    }
+
+    .photo-block {
+      max-width: 30%;  
+	  display: flex;
+	  justify-content: flex-start;
+	  position: relative;
+    }
+
+    .id-photo {
+	width: 115px;
+	height: auto;
+	border-radius: 8px;
+	margin-top: 40px;
+	margin-left: -130px; 
+    }
+
+    .row {
+      margin-bottom: 18px;
+    }
+
+    .label {
+      font-size: 0.85rem;
+      opacity: 0.85;
+    }
+
+    .value {
+      font-size: 1.3rem;
+      margin-bottom: 5px;
+      font-weight: normal;
+    }
+	.section-bottom {
+	background-image: url("background.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: white;
+	padding: 25px;
+	margin-top: -20px;
+	}
+
+    .divider {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      margin: 18px 0;
+    }
+
+    .button-row {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2px;
+      justify-items: center;
+      margin: 10px 0 20px;
+    }
+
+    .button-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 0.75rem;
+      color: white;
+    }
+
+    .button-col img {
+      width: 12-px;
+      height: 38px;
+      margin-bottom: 5px;
+    }
+
+    .note {
+      font-size: 0.75rem;
+      text-align: center;
+      opacity: 0.8;
+      margin-top: 20px;
+    }
+
+    .doc-code {
+      font-size: 0.65rem;
+      font-weight: normal;
+      text-align: center;
+      margin: 12px 0;
+      word-break: break-word;
+    }
+
+    .uppercase-label {
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .uppercase-value {
+      text-transform: uppercase;
+      font-weight: normal;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div><</div>
+    <div class="center">Δελτίο Ταυτότητας</div>
+    <div>︙</div>
+  </div>
+
+  <div class="section-top">
+    <div class="info-block">
+      <div class="row">
+        <div class="label uppercase-label">ΑΡΙΘΜΟΣ ΤΑΥΤΟΤΗΤΑΣ:</div>
+        <div class="value uppercase-value">AO 148864</div>
+      </div>
+      <div class="row">
+        <div class="label uppercase-label">ΗΜ. ΕΚΔΟΣΗΣ:</div>
+        <div class="value uppercase-value">29/01/2020</div>
+      </div>
+    </div>
+    <div class="photo-block">
+      <img src="IMG_0173.jpeg" alt="ID Photo" class="id-photo">
+    </div>
+  </div>
+
+  <div class="section-bottom">
+
+    <div class="button-row">
+      <div class="button-col">
+        <img src="wallet.jpg" alt="Wallet">
+      </div>
+      <div class="button-col">
+        <img src="copy.jpg" alt="Copy">
+      </div>
+      <div class="button-col">
+        <img src="qr.jpg" alt="QR">
+      </div>
+      <div class="button-col">
+        <img src="scan.jpg" alt="Scan">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="label">ΕΠΩΝΥΜΟ</div>
+      <div class="value">ΣΑΛΙΑΡΗΣ-ΦΑΣΣΕΑΣ</div>
+      <div class="divider"></div>
+      <div class="label">SURNAME</div>
+      <div class="value">SALIARIS-FASSEAS</div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="row">
+      <div class="label">ΟΝΟΜΑ</div>
+      <div class="value">ΑΓΗΣ</div>
+      <div class="divider"></div>
+      <div class="label">GIVEN NAME</div>
+      <div class="value">AGIS</div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="row">
+      <div class="label">ΟΝΟΜΑ ΠΑΤΕΡΑ</div>
+      <div class="value">ΓΕΩΡΓΙΟΣ</div>
+      <div class="divider"></div>
+      <div class="label">FATHER'S NAME</div>
+      <div class="value">GEORGIOS</div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="row">
+      <div class="label">ΟΝΟΜΑ ΜΗΤΕΡΑΣ</div>
+      <div class="value">ΣΟΦΙΑΝΟΠΟΥΛΟΥ</div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="row">
+      <div class="label">ΗΜ. ΓΕΝΝΗΣΗΣ</div>
+      <div class="value">05/12/2006</div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="row">
+      <div class="label">ΤΟΠΟΣ ΓΕΝΝΗΣΗΣ</div>
+      <div class="value">ΑΜΑΡΟΥΣΙΟ ΑΤΤΙΚΗΣ</div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="row">
+      <div class="label">ΑΡΧΗ ΕΚΔΟΣΗΣ</div>
+      <div class="value">Τ. Α. ΚΗΦΙΣΙΑΣ</div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="row">
+      <div class="doc-code">ΚΩΔΙΚΟΣ ΕΓΓΡΑΦΟΥ: w4PO8VAEzopT6AYF02d6...</div>
+    </div>
+
+    <p class="note">
+      Δεν αποτελεί διεθνές ταξιδιου έγγραφο<br>
+      Not an international travel document
+    </p>
+  </div>
+
+</body>
+</html>
